@@ -20,7 +20,7 @@
 </template>
 
 <style scoped>
-
+@import url(//db.onlinewebfonts.com/c/1f5855e73a9496b07c7dd77c7dc946fb?family=JOURNALISM);
 .header {
    padding: 15px;
    margin-left: 60px;
@@ -40,9 +40,10 @@
    text-decoration: underline;
 }
 .header-list-item-logo {
-   font-size: 30px;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 35px;
+   font-family: JOURNALISM;
    padding-right: 100px;
+   
 }
 
 </style>
