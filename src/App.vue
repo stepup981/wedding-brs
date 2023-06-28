@@ -53,7 +53,7 @@ export default {
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100;1,400&display=swap');
 
 * {
   padding: 0;
