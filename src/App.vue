@@ -31,12 +31,14 @@ export default {
 <script>
 import TheHeader from '@/components/TheHeader.vue'
 import firstDate from '@/components/firstDate.vue'
+import theLocation from '@/components/theLocation.vue'
 
 export default {
   name: 'App',
   components: {
     TheHeader,
-    firstDate
+    firstDate,
+    theLocation
   }
 }
 </script>
@@ -49,6 +51,9 @@ export default {
     <firstDate>
       
     </firstDate>
+    <theLocation>
+      
+    </theLocation>
   </div>
 </template>
 
@@ -60,7 +65,7 @@ export default {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  width: 100vw;
+  width: 100%;
 }
 
 </style>

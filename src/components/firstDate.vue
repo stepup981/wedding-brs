@@ -5,10 +5,10 @@
 </script>
 
 <template>
-   <div class="firstDate">
-      <div class="firstDate_date">08.09.2023</div>
-      <div class="secondDate_date">Cостоится наша свадьба!</div>
-      <div class="thirdDate_date">В этот день мы хотим соединить наши судьбы и сердца. <br>Нам будет очень приятно, если вы разделите с нами радость этого события!</div>
+   <div class="date">
+      <div class="first__date">08.09.2023</div>
+      <div class="second__date">Cостоится наша свадьба!</div>
+      <div class="third__date">В этот день мы хотим соединить наши судьбы и сердца. <br>Нам будет очень приятно, если вы разделите с нами радость этого события!</div>
 
    </div>
 </template>
@@ -16,36 +16,34 @@
 <style scoped>
 @font-face {
    font-family: 'Caravan';
-   src: url('../fonts/Caravan.eot');
+   src: url('../assets/fonts/Caravan.eot');
    src: local('Caravan'),
-      url('../fonts/Caravan.eot') format('embedded-opentype'),
-      url('../fonts/Caravan.woff2') format('woff2'),
-      url('../fonts/Caravan.woff') format('woff'),
-      url('../fonts/Caravan.ttf') format('truetype');
+      url('../assets/fonts/Caravan.eot') format('embedded-opentype'),
+      url('../assets/fonts/Caravan.woff2') format('woff2'),
+      url('../assets/fonts/Caravan.woff') format('woff'),
+      url('../assets/fonts/Caravan.ttf') format('truetype');
    font-weight: normal;
    font-style: normal;
 }
 
-.firstDate {
+.date {
    padding-top: 50px;
    text-align: center;
-   height: 825px;
    background-color: rgba(217, 217, 217, 1);
 }
-.firstDate_date {
+.first__date {
    font-family: Caravan;
-   font-size: 200px;
+   font-size: 120px;
 }
-.secondDate_date {
+.second__date {
    
-   font-size: 50px;
+   font-size: 35px;
    font-style: italic;
-   margin-top: 100px;
+   margin-top: 80px;
 }
-.thirdDate_date {
-   font-size: 40px;
-   margin-top: 100px;
-
+.third__date {
+   font-size: 35px;
+   margin-top: 80px;
 }
 
 </style>

@@ -10,11 +10,10 @@
 <template>
    <div class="header">
       <div class="header-list">
-         <button class="header-btn">Потвердить присутствие</button>
+         <button class="header__btn">Потвердить присутствие</button>
          <div class="header-list-item"><a href="#"></a>Место проведения</div>
          <div class="header-list-item-logo">Роман и Екатерина</div>
          <div class="header-list-item"><a href="#"></a>Программа</div>
-         
          <div class="header-list-item"><a href="#"></a>Стиль</div>
          <div class="header-list-item"><a href="#"></a>Детали</div>
       </div>
@@ -24,16 +23,29 @@
 <style scoped>
 @import url(//db.onlinewebfonts.com/c/1f5855e73a9496b07c7dd77c7dc946fb?family=JOURNALISM);
 .header {
+   position: sticky;
+   top: 0;
    padding: 15px;
-   /* margin-left: 140px; */
-   width: 100vw;
    background-color: white;
 }
 .header-list {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-left: 95px;
 }
+.header__btn {
+   font-size: 18px;
+   color: white;
+   background-color:  rgba(34, 70, 107, 1);
+   border-style: solid 2px black;
+   border-radius: 40px;
+   padding: 5px;
+   margin-right: 65px;
+}
+.header__btn:hover {
+   box-shadow: 0px 0px 35px 31px rgba(153, 155, 156, 0.2);
+} 
 .header-list-item {
    font-size: 20px;
 }
@@ -42,24 +54,14 @@
    text-decoration: underline;
 }
 .header-list-item-logo {
-   font-size: 35px;
+   font-size: 38px;
    font-family: JOURNALISM;
-}
-.header-btn {
-   margin-right: 55px;
-   font-size: 20px;
-   color: white;
-   padding: 5px;
-   border-right: 30px;
-   border-left: 30px;
-   border-radius: 40px;
-   background-color:  rgba(34, 70, 107, 1);
-   border-style: solid 2px black;
-   
-}
-
-.header-btn:hover {
-   box-shadow: 0px 0px 60px 31px rgba(153, 155, 156, 0.2);
+   position: relative;
+} 
+.header-list-item-logo:after {
+   position: relative;
+   background-image: url(../assets/img/love.png);
+   z-index: 1;
 }
 
 </style>
