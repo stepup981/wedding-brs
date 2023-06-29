@@ -32,7 +32,6 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-left: 95px;
 }
 .header__btn {
    font-size: 18px;
@@ -41,7 +40,6 @@
    border-style: solid 2px black;
    border-radius: 40px;
    padding: 5px;
-   margin-right: 65px;
 }
 .header__btn:hover {
    box-shadow: 0px 0px 35px 31px rgba(153, 155, 156, 0.2);
@@ -56,12 +54,7 @@
 .header-list-item-logo {
    font-size: 38px;
    font-family: JOURNALISM;
-   position: relative;
 } 
-.header-list-item-logo:after {
-   position: relative;
-   background-image: url(../assets/img/love.png);
-   z-index: 1;
-}
+
 
 </style>
