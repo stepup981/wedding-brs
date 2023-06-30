@@ -1,16 +1,20 @@
 <script>
 import Header from '@/components/Header.vue'
 import WeddingDate from '@/components/WeddingDate.vue'
-import TheLocation from '@/components/TheLocation.vue'
-import TheProgramm from '@/components/TheProgramm.vue'
+import Location from '@/components/Location.vue'
+import Programm from '@/components/Programm.vue'
+import WeddingStyle from '@/components/WeddingStyle.vue'
+import Details from '@/components/Details.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     WeddingDate,
-    TheLocation,
-    TheProgramm
+    Location,
+    Programm,
+    WeddingStyle,
+    Details
   }
 }
 </script>
@@ -18,12 +22,11 @@ export default {
 <template>
   <div>
     <Header/>
-
     <WeddingDate/>
-      
-    <TheLocation/>
-
-    <TheProgramm/>  
+    <Location/>
+    <Programm/>
+    <WeddingStyle/>
+    <Details/>
   </div>
 </template>
 

@@ -1,0 +1,54 @@
+<script>
+   export default {
+      
+   }
+</script>
+
+<template>
+   <div class="details-style">
+      <div class="details-style__title">Детали
+         <div class="details-style__style">details</div>
+      </div>
+      <div>Самым лучшим подарком для нас станут ваши улыбки, хорошее настроение. Красивые конверты с теплыми пожеланиями и финансовыми презентами.</div>
+      <div>О цветах в этот день просим не беспокоиться. Будем рады, если вы замените их бутылочкой хорошего вина для нашей домашней коллекции.</div>
+   </div>
+</template>
+
+
+
+<style lang="scss">
+.details-style {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 100px;
+   padding: 100px;
+   text-align: center;
+   background-color: rgba(188, 157, 128, 1);
+   font-size: 50px;
+   background-image: url(../assets/img/vectordetail.png), url(../assets/img/vectordetail2.png);
+   background-repeat: no-repeat, no-repeat;
+   background-position: left, 50% 62%;
+   background-size: 300px, 150px ;
+
+   &__title {
+      font-size: 90px;
+      font-family: Journalism;
+      position: relative;
+      z-index: 1;
+   }
+
+   &__style {
+      color: rgba(239, 232, 226, 1);
+      font-size: 350px;
+      font-family: Caravan;
+      width: fit-content;
+      position: absolute;
+      z-index: -1;
+      transform: translate(85%, -90%);
+   }
+
+}
+
+
+</style>

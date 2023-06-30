@@ -1,3 +1,9 @@
+<script>
+export default {
+   name: "Programm"
+}
+</script>
+
 <template>
    <div class="programm">
       <div class="programm__title">Программа
@@ -12,26 +18,26 @@
    </div>
 </template>
 
-<script>
-   export default {
-      
-   }
-</script>
 
 <style lang="scss">
 .programm {
    background-color: rgba(177, 199, 222, 1);
-   padding: 130px 130px;
+   background-image: url(../assets/img/floweprog.png);
+   background-size: 300px;
+   background-repeat: no-repeat;
+   background-position: right bottom;
+   padding: 50px;
+   padding-top: 80px;
+   font-size: 35px;
    display: flex;
    flex-direction: column;
-   gap: 100px;
-  
 
    &__title {
       font-size: 90px;
       font-family: Journalism;
       text-align: center;
-      padding-left: 550px;
+      padding-left: 450px;
+      padding-bottom: 120px;
       position: relative;
       z-index: 1;
    }
@@ -42,12 +48,13 @@
       color: rgba(239, 232, 226, 1);
       position: absolute;
       z-index: -1;
-      transform: translate(-20%, -100%);
+      width: fit-content;
+      transform: translate(15%, -105%);
    }
 
    &__vector {
-      font-size: 35px;
-
+      padding-left: 100px;
    }
 }
+
 </style>

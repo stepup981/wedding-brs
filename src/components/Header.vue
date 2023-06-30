@@ -31,11 +31,10 @@
 	&__btn {
 		font-size: 18px;
 		color: #fff;
-		background-color:  rgba(34, 70, 107, 1);
+		background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 		border-radius: 40px;
 		padding: 4px;
 		outline: none;
-		border-style: 2px solid black;
 		cursor: pointer;
 
 		&:hover {
