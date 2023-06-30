@@ -2,26 +2,28 @@
 import Header from '@/components/Header.vue'
 import WeddingDate from '@/components/WeddingDate.vue'
 import TheLocation from '@/components/TheLocation.vue'
+import TheProgramm from '@/components/TheProgramm.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     WeddingDate,
-    TheLocation
+    TheLocation,
+    TheProgramm
   }
 }
 </script>
 
 <template>
   <div>
-    <Header />
-    <WeddingDate>
-      
-    </WeddingDate>
-    <theLocation>
+    <Header/>
 
-    </theLocation>  
+    <WeddingDate/>
+      
+    <TheLocation/>
+
+    <TheProgramm/>  
   </div>
 </template>
 

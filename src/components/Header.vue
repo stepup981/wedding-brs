@@ -26,7 +26,7 @@
 	top: 0;
 	padding: 16px 40px;
 	background-color: #fff;
-
+	
 	&__btn {
 		font-size: 18px;
 		color: #fff;
@@ -52,7 +52,7 @@
 		font-size: 18px;
 		text-align: center;
 		margin: 0 auto;
-   width: fit-content;
+		width: fit-content;
 		cursor: pointer;
 
 		&:hover {
