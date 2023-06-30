@@ -1,12 +1,15 @@
 <script>
    export default {
-      
+      name: 'Location'
    }
 </script>
 
 <template>
    <div class="location">
-      <img class="location__img" src="../assets/img/studio.png"> 
+      <img
+         class="location__img"
+         src="../assets/img/studio.png"
+      > 
       <div class="location__flexright">
          <div class="location__place">Место проведения
             <div class="location__place-logo">location</div>
@@ -14,24 +17,20 @@
          <div class="location__adress">Торжество пройдет по адресу: <br>г. Киров, ул. Ленина, 101А
          </div>
          <div class="location__studio">STUDIO 101</div>
-         <a class="location__link" href="https://yandex.ru/maps/org/studio_101/170069430179/?ll=49.681372%2C58.594623&z=14.2">*посмотреть на карте</a>
+         <a
+            class="location__link"
+            href="https://yandex.ru/maps/org/studio_101/170069430179/?ll=49.681372%2C58.594623&z=14.2"
+            target="_blank"
+         >*посмотреть на карте</a>
       </div>
       
    </div>
 </template>
 
 <style lang="scss">
-.location__flexright {
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-   grid-gap: 100px;
-   padding-right: 100px;
-}
 .location {
    background-color: rgba(239, 232, 226, 1);
-   padding-top: 100px;
-   padding-bottom: 100px;
+   padding: 100px 100px 100px 0;
    display: flex;
    align-items: center;
    flex-direction: row;
@@ -42,8 +41,8 @@
    &__img{
       width: 1000px;
       height: 700px;
-      
    }
+
    &__place {
       font-size: 75px;
       font-family: Journalism;
@@ -52,28 +51,25 @@
    }
 
    &__place-logo {
+      position: absolute;
+      z-index: -1;
+      width: fit-content;
+      transform: translate(50%, -75%);
+      font-family: Caravan;
       font-size: 350px;
       color:rgba(177, 199, 222, 1);
-      font-family: Caravan;
-      position: absolute;
-      transform: translate(15%, -75%);
-      z-index: -1;
+   }
 
+   &__flexright {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 100px;
    }
 
    &__adress {
-      font-size: 35px;
-      // position: relative;
-      // z-index: 1;
+      font-size: 36px;
    }
-
-   // &__adress-img {
-   //    width: 350px;
-   //    height: 650px;
-   //    transform: translate(-50%, -10%);
-   //    position: absolute;
-   //    z-index: -1;
-   // }
 
    &__studio {
       font-size: 120px;
@@ -86,6 +82,4 @@
       color: black;
    }
 }
-   
-
 </style>

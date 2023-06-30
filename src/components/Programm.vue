@@ -1,3 +1,9 @@
+<script>
+export default {
+   name: "Programm"
+}
+</script>
+
 <template>
    <div class="programm">
       <div class="programm__title">Программа</div>
@@ -8,11 +14,6 @@
    </div>
 </template>
 
-<script>
-   export default {
-      
-   }
-</script>
 
 <style lang="scss">
 .programm {
@@ -21,17 +22,13 @@
    background-size: 300px;
    background-repeat: no-repeat;
    background-position: right bottom;
-   padding: 50px;
-   padding-top: 80px;
-   font-size: 35px;
-   // display: flex;
-   // flex-direction: column;
+   padding: 80px 100px 50px;
+   font-size: 36px;
 
    &__title {
       font-size: 90px;
       font-family: Journalism;
       text-align: center;
-      // padding-right: 450px;
       padding-bottom: 120px;
    }
 }
