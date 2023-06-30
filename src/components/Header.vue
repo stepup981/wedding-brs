@@ -38,7 +38,7 @@
 		cursor: pointer;
 
 		&:hover {
-			box-shadow: 0px 0px 35px 31px rgba(153, 155, 156, 0.2);
+			box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 		}
 	}
 }
@@ -49,15 +49,30 @@
 	align-items: center;
 
 	&__item {
-		font-size: 18px;
-		text-align: center;
-		margin: 0 auto;
-		width: fit-content;
-		cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	margin: 0 auto;
+	width: fit-content;
+	position: relative;
+	color: black;
+	cursor: pointer;
+	line-height: 1; 
+	text-decoration: none; 
+	
+		&:after {
+		display: block;
+		position: absolute;
+		left: 0; 
+		width: 0;
+		height: 2px; 
+		background-color: rgba(188, 157, 128, 1); 
+		content: "";
+		transition: width 0.3s ease-out;
+		}
 
-		&:hover {
-			color: rgba(188, 157, 128, 1);
-			text-decoration: underline;
+		&:hover:after,
+		&:focus:after {
+		width: 100%; 
 		}
 	}
 
