@@ -1,14 +1,14 @@
 <script>
 import Header from '@/components/Header.vue'
 import WeddingDate from '@/components/WeddingDate.vue'
-import theLocation from '@/components/theLocation.vue'
+import TheLocation from '@/components/TheLocation.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     WeddingDate,
-    theLocation
+    TheLocation
   }
 }
 </script>
@@ -43,7 +43,7 @@ export default {
   @font-face {
     font-family: 'Journalism';
     src: local('Journalism'),
-        url('./assets/fonts/Journalism.ttf') format('truetype');
+    url('./assets/fonts/Journalism.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }

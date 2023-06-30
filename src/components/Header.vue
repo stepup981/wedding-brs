@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <div class="header">
+	<div class="header">
 		<div class="header-list">
 			<button class="header__btn">Потвердить присутствие</button>
 			<a class="header-list__item">Место проведения</a>
@@ -17,15 +17,15 @@
 			<a class="header-list__item">Стиль</a>
 			<a class="header-list__item">Детали</a>
 		</div>
-  </div>
+	</div>
 </template>
 
 <style lang="scss">
 .header {
-  position: sticky;
-  top: 0;
-  padding: 16px 40px;
-  background-color: #fff;
+	position: sticky;
+	top: 0;
+	padding: 16px 40px;
+	background-color: #fff;
 
 	&__btn {
 		font-size: 18px;
@@ -34,7 +34,7 @@
 		border-radius: 40px;
 		padding: 4px;
 		outline: none;
-		border: none;
+		border-style: 2px solid black;
 		cursor: pointer;
 
 		&:hover {
@@ -44,15 +44,15 @@
 }
 
 .header-list {
-  display: grid;
-  grid-template-columns: 1fr repeat(2, 1.5fr) repeat(3, 1fr);
-  align-items: center;
+	display: grid;
+	grid-template-columns: 1fr repeat(2, 1.5fr) repeat(3, 1fr);
+	align-items: center;
 
 	&__item {
 		font-size: 18px;
 		text-align: center;
 		margin: 0 auto;
-    width: fit-content;
+   width: fit-content;
 		cursor: pointer;
 
 		&:hover {
@@ -75,7 +75,7 @@
 		font-size: 225px;
 		font-family: Caravan;
 		color: #B1C7DE;
-		z-index: 5;
+		z-index: -1;
 	}
 }
 </style>
