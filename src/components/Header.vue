@@ -26,6 +26,7 @@
 	top: 0;
 	padding: 16px 40px;
 	background-color: #fff;
+	z-index: 5;
 	
 	&__btn {
 		font-size: 18px;

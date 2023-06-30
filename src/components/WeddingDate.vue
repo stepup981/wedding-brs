@@ -15,14 +15,17 @@
 
 <style lang="scss">
 .wedding-date {
-	padding: 50px 0 100px;
+	padding: 50px 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	gap: 48px;
-	background-color: rgba(217, 217, 217, 1);
+	color: white;
 	text-align: center;
+	background-image: url(../assets/img/photoback.png);
+	background-repeat: no-repeat;
+	background-position: center;
 
 	&__date {
 		font-family: Caravan;
@@ -42,8 +45,8 @@
 		color: #B1C7DE;
 		font-size: 180px;
 		font-family: Caravan;
-		text-align: right;
-		margin-bottom: -160px;
+		text-align: center;
+		margin-bottom: 100px;
 	}
 }
 </style>

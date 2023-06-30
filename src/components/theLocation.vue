@@ -12,7 +12,6 @@
             <div class="location__place-logo">location</div>
          </div>
          <div class="location__adress">Торжество пройдет по адресу: <br>г. Киров, ул. Ленина, 101А
-            <!-- <img class="location__adress-img" src="../assets/img/flower.png"> -->
          </div>
          <div class="location__studio">STUDIO 101</div>
          <a class="location__link" href="https://yandex.ru/maps/org/studio_101/170069430179/?ll=49.681372%2C58.594623&z=14.2">*посмотреть на карте</a>
