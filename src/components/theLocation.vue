@@ -63,17 +63,7 @@
 
    &__adress {
       font-size: 35px;
-      // position: relative;
-      // z-index: 1;
    }
-
-   // &__adress-img {
-   //    width: 350px;
-   //    height: 650px;
-   //    transform: translate(-50%, -10%);
-   //    position: absolute;
-   //    z-index: -1;
-   // }
 
    &__studio {
       font-size: 120px;
