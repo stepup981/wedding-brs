@@ -22,7 +22,6 @@
    flex-direction: column;
    gap: 100px;
    padding: 100px;
-   text-align: center;
    background-color: rgba(188, 157, 128, 1);
    font-size: 50px;
    background-image: url(../assets/img/vectordetail.png), url(../assets/img/vectordetail2.png);
@@ -35,6 +34,7 @@
       font-family: Journalism;
       position: relative;
       z-index: 1;
+      text-align: center;
    }
 
    &__style {

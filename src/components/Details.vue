@@ -81,6 +81,10 @@
       text-align: left;
    }
 
+   &__islamimg {
+      height: 250px;
+   }
+
    &__organizerimg {
       display: flex;
       justify-content: space-between;
@@ -89,6 +93,10 @@
    &__organizer {
       font-size: 36px;
       text-align: left;
+   }
+
+   &__leraimg {
+      height: 250px;
    }
 
    &__accept {
