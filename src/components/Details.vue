@@ -82,7 +82,7 @@
    }
 
    &__islamimg {
-      height: 250px;
+      height: 300px;
    }
 
    &__organizerimg {
@@ -96,7 +96,7 @@
    }
 
    &__leraimg {
-      height: 250px;
+      height: 300px;
    }
 
    &__accept {
