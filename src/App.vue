@@ -4,7 +4,9 @@ import WeddingDate from '@/components/WeddingDate.vue'
 import Location from '@/components/Location.vue'
 import Programm from '@/components/Programm.vue'
 import WeddingStyle from '@/components/WeddingStyle.vue'
+import Present from '@/components/Present.vue'
 import Details from '@/components/Details.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'App',
@@ -14,7 +16,9 @@ export default {
     Location,
     Programm,
     WeddingStyle,
-    Details
+    Present,
+    Details,
+    Footer
   }
 }
 </script>
@@ -26,7 +30,9 @@ export default {
     <Location/>
     <Programm/>
     <WeddingStyle/>
+    <Present/>
     <Details/>
+    <Footer/>
   </div>
 </template>
 

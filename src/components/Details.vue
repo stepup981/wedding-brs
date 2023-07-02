@@ -6,49 +6,117 @@
 
 <template>
    <div class="details-style">
-      <div class="details-style__title">Детали
-         <div class="details-style__style">details</div>
+      <div class="details-style__title">
+         Детали
+            <div class="details-style__logo">
+               datails
+            </div>         
       </div>
-      <div>Самым лучшим подарком для нас станут ваши улыбки, хорошее настроение. Красивые конверты с теплыми пожеланиями и финансовыми презентами.</div>
-      <div>О цветах в этот день просим не беспокоиться. Будем рады, если вы замените их бутылочкой хорошего вина для нашей домашней коллекции.</div>
+         <div class="details-style__info">Никакой официальности, суеты и торжественных речей. <br>
+         Только близкие люди, без которых<br>
+         мы не представляем этот день, непринужденная<br> 
+         атмосфера и много веселья!
+         </div>
+         <div class="details-style__hostimg">
+            <div class="details-style__host">Творческие поздравления<br> 
+            приветствуются. Детали у нашего<br> 
+            ведущего vk.com/islam_gaf
+            </div>
+            <img class="details-style__islamimg" src="../assets/img/islam.png">
+         </div>
+         <div class="details-style__organizerimg">
+            <div class="details-style__organizer">По всем вопросам в день свадьбы<br>
+            обращайтесь к нашему организатору<br>
+            Валерии тел. +7-922-999-83-72.
+            </div>
+            <img class="details-style__leraimg" src="../assets/img/lera.png">
+         </div>
+         <div class="details-style__accept">
+            Подтвердите свое присутствие<br>
+            на нашем торжестве не позднее 23.07.2023.
+               <div class="details-style__acceptlogo">
+                  Пожалуйста
+               </div>
+         </div>
    </div>
 </template>
 
-
-
 <style lang="scss">
 .details-style {
+   padding: 132px 150px;
+   background-color: #efe9e3;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
-   gap: 100px;
-   padding: 100px;
-   text-align: center;
-   background-color: rgba(188, 157, 128, 1);
-   font-size: 50px;
-   background-image: url(../assets/img/vectordetail.png), url(../assets/img/vectordetail2.png);
-   background-repeat: no-repeat, no-repeat;
-   background-position: left, 50% 62%;
-   background-size: 300px, 150px ;
+   gap: 80px;
 
    &__title {
-      font-size: 90px;
+      font-size: 75px;
       font-family: Journalism;
       position: relative;
       z-index: 1;
    }
 
-   &__style {
-      color: rgba(239, 232, 226, 1);
+   &__logo {
       font-size: 350px;
       font-family: Caravan;
+      color: rgba(188, 157, 128, 1);
       width: fit-content;
       position: absolute;
       z-index: -1;
-      transform: translate(85%, -90%);
+      transform: translate(-25%, -95%);
    }
 
-}
+   &__info {
+      font-size: 36px;
+      text-align: center;
+   }
 
+   &__hostimg {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__host {
+      font-size: 36px;
+      text-align: left;
+   }
+
+   &__islamimg {
+      width: 600px;
+      height: 220px;
+   }
+
+   &__organizerimg {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__organizer {
+      font-size: 36px;
+      text-align: left;
+   }
+
+   &__leraimg {
+      width: 600px;
+      height: 220px;
+   }
+
+   &__accept {
+      font-size: 40px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+   }
+
+   &__acceptlogo {
+      font-size: 350px;
+      font-family: Caravan;
+      color: rgba(177, 199, 222, 1);
+      width: fit-content;
+      position: absolute;
+      z-index: -1;
+      transform: translate(-15%, -115%);
+   }
+}
 
 </style>

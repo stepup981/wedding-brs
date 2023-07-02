@@ -91,7 +91,7 @@ export default {
     position: absolute;
     z-index: -1;
     width: fit-content;
-    transform: translate(0, -95%);
+    transform: translate(0,-95%);
     font-family: Caravan;
     font-size: 350px;
     color:rgba(177, 199, 222, 1);
