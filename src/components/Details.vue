@@ -1,6 +1,6 @@
 <script>
    export default {
-      
+      name: "Details"
    }
 </script>
 
@@ -18,15 +18,15 @@
          атмосфера и много веселья!
          </div>
          <div class="details-style__hostimg">
-            <div class="details-style__host">Творческие поздравления<br> 
-            приветствуются. Детали у нашего<br> 
+            <div class="details-style__host">Творческие поздравления 
+            приветствуются. Детали у нашего
             ведущего vk.com/islam_gaf
             </div>
             <img class="details-style__islamimg" src="../assets/img/islam.png">
          </div>
          <div class="details-style__organizerimg">
-            <div class="details-style__organizer">По всем вопросам в день свадьбы<br>
-            обращайтесь к нашему организатору<br>
+            <div class="details-style__organizer">По всем вопросам в день свадьбы
+            обращайтесь к нашему организатору
             Валерии тел. +7-922-999-83-72.
             </div>
             <img class="details-style__leraimg" src="../assets/img/lera.png">

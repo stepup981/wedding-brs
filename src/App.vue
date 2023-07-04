@@ -8,6 +8,7 @@ import Present from '@/components/Present.vue'
 import Details from '@/components/Details.vue'
 import Footer from '@/components/Footer.vue'
 
+
 export default {
   name: 'App',
   components: {
@@ -19,7 +20,7 @@ export default {
     Present,
     Details,
     Footer
-  }
+  },
 }
 </script>
 
