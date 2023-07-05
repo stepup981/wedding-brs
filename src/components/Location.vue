@@ -19,7 +19,7 @@
          <div class="location__studio">STUDIO 101</div>
          <a
             class="location__link"
-            href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView"
+            href="https://yandex.ru/maps/org/studio_101/170069430179/?ll=49.686669%2C58.593822&z=12"
             target="_blank"
          >*посмотреть на карте</a>
       </div>

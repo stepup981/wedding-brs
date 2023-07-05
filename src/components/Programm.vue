@@ -5,7 +5,8 @@ export default {
 </script>
 
 <template>
-   <div class="programm">
+   <div class="programm-container">
+      <div class="programm">
       <div class="programm__title">Программа
          <div class="programm__title-logo">programm</div>
       </div>
@@ -16,10 +17,17 @@ export default {
             <li>17:00 – праздничный банкет</li>
          </ul>
    </div>
+</div>
 </template>
 
 
 <style lang="scss">
+.programm-container {
+   padding: 0;
+   margin: 0;
+   width: 100%;
+}
+
 .programm {
    background-color: rgba(177, 199, 222, 1);
    background-image: url(../assets/img/floweprog.png);
