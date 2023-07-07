@@ -117,4 +117,81 @@
    }
 }
 
+@media (max-width:480px) {
+   .details-style {
+   padding: 60px 30px;
+   background-color: #efe9e3;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+
+   &__title {
+      font-size: 35px;
+      font-family: Journalism;
+      position: relative;
+      z-index: 1;
+   }
+
+   &__logo {
+      font-size: 150px;
+      font-family: Caravan;
+      color: rgba(188, 157, 128, 1);
+      width: fit-content;
+      position: absolute;
+      z-index: -1;
+      transform: translate(-5%, -75%);
+   }
+
+   &__info {
+      font-size: 20px;
+      text-align: center;
+   }
+
+   &__hostimg {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__host {
+      font-size: 16px;
+      text-align: left;
+   }
+
+   &__islamimg {
+      height: 110px;
+   }
+
+   &__organizerimg {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__organizer {
+      font-size: 16px;
+      text-align: left;
+   }
+
+   &__leraimg {
+      height: 110px;
+   }
+
+   &__accept {
+      font-size: 20px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+   }
+
+   &__acceptlogo {
+      font-size: 130px;
+      font-family: Caravan;
+      color: rgba(177, 199, 222, 1);
+      width: fit-content;
+      position: absolute;
+      z-index: -1;
+      transform: translate(-5%, -85%);
+   }
+}
+}
+
 </style>

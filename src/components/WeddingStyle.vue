@@ -168,4 +168,102 @@ export default {
     background-color: #000;
   }
 }
+
+@media (max-width: 480px) {
+  .wedding-style {
+  padding: 45px 33px;
+  background-color: #efe9e3;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  &__title {
+    font-size: 35px;
+    font-family: Journalism;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__style {
+    position: absolute;
+    z-index: -1;
+    width: fit-content;
+    transform: translate(-5%,-67%);
+    font-family: Caravan;
+    font-size: 150px;
+    color:rgba(177, 199, 222, 1);
+  }
+
+  &__info {
+    font-size: 18px;
+    text-align: end;
+  }
+
+  &__colors {
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+  }
+
+  &__color {
+    width: 128px;
+    height: 58px;
+    border-radius: 50%;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__women,
+  &__men {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__subtitle {
+    font-size: 22px;
+    margin-bottom: 55px;
+  }
+
+  &__pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 46px;
+  }
+
+  &__pic {
+    max-width: 246px;
+  }
+
+  .blue {
+    background-color: #b1c7de;
+  }
+
+  .deep-blue {
+    background-color: #244362;
+  }
+
+  .beige {
+    background-color: #ceb9a6;
+  }
+
+  .deep-beige {
+    background-color: #bc9d80;
+  }
+
+  .brown {
+    background-color: #72462e;
+  }
+
+  .black {
+    background-color: #000;
+  }
+}
+}
 </style>

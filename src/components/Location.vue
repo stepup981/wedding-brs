@@ -69,8 +69,6 @@
 
    &__adress {
       font-size: 35px;
-      // position: relative;
-      // z-index: 1;
    }
 
    &__studio {
@@ -85,5 +83,65 @@
       text-decoration: none;
       z-index: 3;
    }
+}
+
+@media (max-width:480px) {
+   .location {
+   background-color: rgba(239, 232, 226, 1);
+   padding: 50px 30px 50px 0;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   background-image: url(../assets/img/flower.png);
+   background-repeat: no-repeat;
+   background-position: 100% 80%;
+   background-size: 100px;
+
+   &__img{
+      width: 220px;
+      height: 250px;
+   }
+
+   &__place {
+      font-size: 35px;
+      font-family: Journalism;
+      position: relative;
+      z-index: 1;
+   }
+
+   &__place-logo {
+      position: absolute;
+      z-index: -1;
+      width: fit-content;
+      transform: translate(-20%, -95%);
+      font-family: Caravan;
+      font-size: 150px;
+      color:rgba(177, 199, 222, 1);
+   }
+
+   &__flexright {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 13px;
+   }
+
+   &__adress {
+      font-size: 15px;
+   }
+
+   &__studio {
+      font-size: 45px;
+      font-family: Journalism;
+      color: rgba(34, 70, 107, 1);
+   }
+
+   &__link {
+      font-size: 15px;
+      color: black;
+      text-decoration: none;
+      z-index: 3;
+   }
+}
 }
 </style>

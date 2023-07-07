@@ -48,4 +48,38 @@
    }
 }
 
+@media (max-width:480px) {
+   .present-style {
+   display: flex;
+   flex-direction: column;
+   gap: 35px;
+   padding: 45px;
+   padding-top: 60px;
+   background-color: rgba(188, 157, 128, 1);
+   font-size: 20px;
+   background-image: url(../assets/img/vectordetail.png), url(../assets/img/vectordetail2.png);
+   background-repeat: no-repeat, no-repeat;
+   background-position: 0% 65%, 50% 58%;
+   background-size: 100px, 50px ;
+
+   &__title {
+      font-size: 35px;
+      font-family: Journalism;
+      position: relative;
+      z-index: 1;
+      text-align: center;
+   }
+
+   &__style {
+      color: rgba(239, 232, 226, 1);
+      font-size: 150px;
+      font-family: Caravan;
+      width: fit-content;
+      position: absolute;
+      z-index: -1;
+      transform: translate(25%, -75%);
+   }
+}
+}
+
 </style>

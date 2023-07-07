@@ -18,4 +18,13 @@
    text-align: center;
    font-size: 20px;
 }
+
+@media (max-width: 480px) {
+   .footer-style {
+   background-color: rgba(188, 157, 128, 1);
+   padding: 5px 0px 5px 0px;
+   text-align: center;
+   font-size: 10px;
+   }
+}
 </style>
