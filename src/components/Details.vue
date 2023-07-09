@@ -180,6 +180,7 @@
       text-align: center;
       position: relative;
       z-index: 1;
+      padding-top: 40px;
    }
 
    &__acceptlogo {
@@ -189,7 +190,7 @@
       width: fit-content;
       position: absolute;
       z-index: -1;
-      transform: translate(-5%, -85%);
+      transform: translate(-10%, -125%);
    }
 }
 }

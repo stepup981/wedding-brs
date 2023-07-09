@@ -64,7 +64,7 @@
 	background-image: url(../assets/img/alophone.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 420px 390px;
+	background-size: 420px 420px;
 
 	&__date {
 		font-family: Caravan;

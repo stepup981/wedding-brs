@@ -113,7 +113,7 @@
       position: absolute;
       z-index: -1;
       width: fit-content;
-      transform: translate(-20%, -95%);
+      transform: translate(-25%, -85%);
       font-family: Caravan;
       font-size: 150px;
       color:rgba(177, 199, 222, 1);

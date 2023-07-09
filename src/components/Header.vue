@@ -1,9 +1,14 @@
 <script>
 	export default {
 		methods: {
-			clickHandler (location) { 
-				window.scrollTo({top: document.querySelector(location).offsetTop -94,behavior: 'smooth'});
-		}
+			clickHandler (location) {
+				if (window.matchMedia("(max-width:480px)").matches) {
+					window.scrollTo({top: document.querySelector(location).offsetTop -24,behavior: 'smooth'})
+				} else {
+					window.scrollTo({top: document.querySelector(location).offsetTop -74,behavior: 'smooth'})
+				}
+				// window.scrollTo({top: document.querySelector(location).offsetTop -94,behavior: 'smooth'})
+			}
 	}
 }
 </script>
@@ -11,7 +16,7 @@
 <template>
 	<div class="header">
 		<div class="header-list">
-			<a href="https://vk.me/join/PSjSeB_K_sRcC_MvV6PycmDja5HwwOL6JnE=" target="_blank" class="header__btn">Подтвердить присутствие</a>
+			<a href="https://vk.me/join/b7SXSPtXUtCVHy7q1jYJ2fTZa28DlvHHPms=" target="_blank" class="header__btn">Подтвердить присутствие</a>
 			<a @click="clickHandler('.location')" class="header-list__item">Место проведения</a>
 			<div class="header-list__item-logo">
 				Роман и Екатерина

@@ -51,6 +51,7 @@
 @media (max-width:480px) {
    .present-style {
    display: flex;
+   text-align: center;
    flex-direction: column;
    gap: 35px;
    padding: 45px;
