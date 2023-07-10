@@ -20,7 +20,7 @@
          <div class="details-style__hostimg">
             <div class="details-style__host">Творческие поздравления 
             приветствуются. Детали у нашего
-            ведущего <a href="vk.com/islam_gaf">vk.com/islam_gaf</a>
+            ведущего <a href="https://vk.com/islam_gaf">vk.com/islam_gaf</a>
             </div>
             <img class="details-style__islamimg" src="../assets/img/islam.png">
          </div>
