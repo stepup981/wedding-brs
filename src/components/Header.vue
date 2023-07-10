@@ -7,7 +7,6 @@
 				} else {
 					window.scrollTo({top: document.querySelector(location).offsetTop -74,behavior: 'smooth'})
 				}
-				// window.scrollTo({top: document.querySelector(location).offsetTop -94,behavior: 'smooth'})
 			}
 	}
 }
@@ -142,7 +141,7 @@ $color: rgb(22, 68, 117);
 	.header {
 	position: sticky;
 	top: 0;
-	padding: 3px 4px;
+	padding: 5px 2px;
 	background-color: #fff;
 	z-index: 5;
 	
