@@ -27,7 +27,8 @@
          <div class="details-style__organizerimg">
             <div class="details-style__organizer">По всем вопросам в день свадьбы
             обращайтесь к нашему организатору
-            Валерии тел. +7-922-999-83-72.
+            Валерии<br> 
+            тел. +7-922-999-83-72.
             </div>
             <img class="details-style__leraimg" src="../assets/img/lera.png">
          </div>
